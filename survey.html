@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+        <title>simple survey</title>
+        <link rel="stylesheet" href="style1.css">
+        
+</head>
+<body>
+    <form action="submitform.html" method="post">
+    <div class="container">
+        <h2>Survey Form</h2>
+   
+            <div class="form-wrapper">
+                <form action="">        
+                
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text"
+                 name="Name"
+                  id="name" 
+                  place holder="Enter Your Name" >
+                </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email"
+                 name="email"
+                  id="email"
+                  place holder="Enter Your Email" >
+            </div>
+            <div class="form-group">
+                <label id="number-label"
+                 for="number">Age</label>
+                <input type="number"
+                 name="Age"
+                  id="number" 
+                  class="form control" 
+                  place holder="Enter Your Age" >
+            </div>
+        </div>
+            
+            <div class="form-group flex">
+                <label for=""> What was your first impression when you first saw me?</label>
+               <div class="recommendation">
+               <input type="radio" name="recommend" id="good"><label for="good">Good</label> 
+               <input type="radio" name="recommend" id="bad"> <label for="bad">Bad</label>
+            </div>
+                </div>
+                <div class="form-group flex">
+               <label for="suggestions">Or would you like to say something?</label>
+               
+                <textarea name="suggestions" id="suggestions" rows="10" cols="30"></textarea>
+               </div>
+
+            <div class="form-group">
+                <label for="impression">According to you how good Iam?</label>
+               <div class="box">
+               <input type="checkbox" name="jz" id="very high"><label for=" very high">very good</label> 
+               <input type="checkbox" name="jz" id="high"> <label for="high">good</label>
+               <input type="checkbox" name="jz" id="low"> <label for="low">bad</label>
+               <input type="checkbox" name="jz" id="very low"> <label for="very low">very bad</label>
+                <br>
+                <br>
+               </div>
+               </div>
+                <div class="form-group">
+                    <label for="hear" id="hear">Do you think Iam beautiful?</label>
+                    <select>
+                        <option class="transparent" value="very very beautiful">very very beautiful</option>
+                        <option class="transparent" value=" very beautiful"> very beautiful</option>
+                        <option class="transparent" value="beautiful"> beautiful</option>
+                        <option class="transparent" value="tum jane jaha">soundarya sabun nirma</option>
+                    </select>
+                </div>
+                    
+                    <div class="form-group">
+                        <label for="">Which genre of drama do you prefer more?</label>
+                       <div class="recommendation">
+                       <input type="radio" name="recommend" id="korean"><label for="korean">Korean</label> 
+                       <input type="radio" name="recommend" id="chinese"><label for="chinese">chinese</label>
+                       <input type="radio" name="recommend" id="japanese"><label for="japanese">japanese</label>
+                       <input type="radio" name="recommend" id="pakistani"><label for="pakistani">pakistani</label>
+                       <input type="radio" name="recommend" id="nothing"><label for="nothing">nothing</label>
+                        <br>
+                         <br>
+                       <button type="submit" > Submit</button>  
+       </div>
+       </div>
+
+    </form>
+    </h2>
+</body>
+</html>
